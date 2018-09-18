@@ -8,8 +8,9 @@ var dialogManager = require('./dialogManager.js')
 var app = express();
 
 var config = {
-    channelAccessToken: myconfig.LINE_CHANNEL_ACCESS_TOKEN,
-    channelSecret: myconfig.LINE_CHANNEL_SECRET
+    channelAccessToken: myconfig.VB7VpIYeKKER+/Hq+T+o0KVTK74fgvriCb2GTAdw/Q48KJPpVkJCjsXGV++bewIpuvWLdFIrP8Wgkc3ht1J8cqOhopBfyVE+gSfjIqPpZiGK5zTf7XvHrEWTAzTfsPlXRbidJS5h/gAiQIU/BTvhoAdB04t89/1O/w1cDnyilFU=,
+    channelSecret: myconfig.a68ce80c4f175368b5f7c744f2e2f31c
+
 }
 const client = new line.Client(config);
 dialogManager.setClient(client);
